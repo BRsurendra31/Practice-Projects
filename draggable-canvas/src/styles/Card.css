@@ -1,0 +1,39 @@
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: #fff;
+  position: relative; /* Required for popup positioning */
+  overflow: hidden; /* Hide overflow to ensure proper layout */
+}
+
+.card-content p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  transition: max-height 0.3s ease; /* Smooth transition for expanding */
+  max-height: 80px; /* Adjust based on the initial visible content height */
+  overflow: hidden;
+}
+
+.card-content p.expanded {
+  max-height: none; /* No limit when expanded */
+}
+
+.card-content button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.card-content button:hover {
+  background-color: #0056b3;
+}

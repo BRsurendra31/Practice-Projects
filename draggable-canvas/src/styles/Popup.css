@@ -1,0 +1,29 @@
+/* Styles for Popup Component */
+.popup {
+    position: absolute; /* Position relative to the card */
+    background: white; /* White background for the popup */
+    border: 1px solid #ddd; /* Border around the popup */
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Shadow for better visibility */
+    padding: 10px; /* Padding inside the popup */
+    z-index: 1000; /* Ensure the popup is on top */
+    width: 200px; /* Adjust width as needed */
+  }
+  
+  .popup-content {
+    position: relative;
+  }
+  
+  .popup-content .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .popup-content p {
+    margin: 0;
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  

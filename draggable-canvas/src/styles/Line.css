@@ -1,0 +1,9 @@
+.line {
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .line circle {
+    cursor: pointer;
+  }
+  
