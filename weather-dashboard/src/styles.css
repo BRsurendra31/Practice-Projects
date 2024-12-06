@@ -1,0 +1,252 @@
+.app {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    margin-right: 5px;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .forecast-day {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .favorites {
+    margin-top: 20px;
+  }
+  
+  .favorite-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  /* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  h1 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  /* Search Bar */
+  .search {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .search input {
+    padding: 10px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .search button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Weather Display */
+  .weather {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .weather h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .weather p {
+    margin: 5px 0;
+  }
+  
+  .forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .forecast-item {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    margin: 0 5px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .forecast-item h4 {
+    color: #007bff;
+  }
+  
+  .forecast-item p {
+    margin: 5px 0;
+  }
+  
+  /* Favorites */
+  .favorites {
+    margin: 20px 0;
+  }
+  
+  .favorites h3 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .favorite-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .favorite-item span {
+    font-size: 16px;
+  }
+  
+  .favorite-item button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .favorite-item button:nth-child(1) {
+    background-color: #007bff;
+  }
+  
+  .favorite-item button:nth-child(1):hover {
+    background-color: #0056b3;
+  }
+  
+  .favorite-item button:nth-child(2) {
+    background-color: #dc3545;
+  }
+  
+  .favorite-item button:nth-child(2):hover {
+    background-color: #a71d2a;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .forecast {
+      flex-direction: column;
+    }
+  
+    .forecast-item {
+      margin: 10px 0;
+    }
+  
+    .search input {
+      width: 60%;
+    }
+  }
+  
+
+  /* slf */
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .search-bar button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #8495e8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .search-bar button:hover {
+    background-color: #656de1;
+  }
+
+  button.add-to-favorite {
+    background-color: #2196F3;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+  
+  .add-to-favorite:hover {
+    background-color: #1976D2;
+  }
+
+
+.favorites li button:hover {
+    background-color: #e04343;
+  }
+  
+  .toggle button {
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    background-color: #8495e8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .toggle button:hover{
+    background-color: #526ce4;
+  }
